@@ -7,10 +7,16 @@
  	
  	printf("nhap so B=\n",B);
  	scanf("%f",&B);
+ 	if(B!=0){
  	 if(A>B) {
  	 	printf("Thuong hai so A/B la:%f",A/B);
 	  } else {
 	  	printf("tich hai so A va B la:%f",A*B);
+	  }
+	  }
+	  else 
+	  {
+	  	printf("khong thoa man dieu kien cua b, moi nhap lai");
 	  }
  	return 0;
  	
